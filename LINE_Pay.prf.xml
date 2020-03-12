@@ -1,0 +1,361 @@
+<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+	<Profile sr="prof17" ve="2">
+		<cdate>1575370136655</cdate>
+		<clp>true</clp>
+		<edate>1575370712806</edate>
+		<flags>8</flags>
+		<id>17</id>
+		<mid0>16</mid0>
+		<nme>LINE Pay</nme>
+		<State sr="con0" ve="2">
+			<code>200029840</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<OnlyClickable>false</OnlyClickable>
+					<OnlyClickable-type>java.lang.Boolean</OnlyClickable-type>
+					<OnlyVisible>false</OnlyVisible>
+					<OnlyVisible-type>java.lang.Boolean</OnlyVisible-type>
+					<UIUpdateApps>&lt;StringArray sr=""&gt;&lt;_array_UIUpdateApps0&gt;com.linepaycorp.talaria&lt;/_array_UIUpdateApps0&gt;&lt;/StringArray&gt;</UIUpdateApps>
+					<UIUpdateApps-type>[Ljava.lang.String;</UIUpdateApps-type>
+					<UIUpdateFields></UIUpdateFields>
+					<UIUpdateFields-type>java.lang.String</UIUpdateFields-type>
+                    <UIUpdateText>忘記密碼？</UIUpdateText>
+					<UIUpdateText-type>java.lang.String</UIUpdateText-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Apps: LINE Pay
+Text: 忘記密碼？</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>0</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>UIUpdateText UIUpdateApps plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>580e656c-eb2c-4e7b-9bab-1523911f8bec</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentUIState</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigUIState</Str>
+		</State>
+	</Profile>
+	<Task sr="task16">
+		<cdate>1575370007506</cdate>
+		<edate>1584015715897</edate>
+		<id>16</id>
+		<nme>LINE Pay Pass</nme>
+		<Action sr="act0" ve="7">
+			<code>1732635924</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionId>com.linepaycorp.talaria:id/number1View</ActionId>
+					<ActionId-type>java.lang.String</ActionId-type>
+					<ActionType>16</ActionType>
+					<ActionType-type>java.lang.String</ActionType-type>
+					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
+					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
+					<FieldSelectionType>1</FieldSelectionType>
+					<FieldSelectionType-type>java.lang.String</FieldSelectionType-type>
+					<IsFirstAction>false</IsFirstAction>
+					<IsFirstAction-type>java.lang.Boolean</IsFirstAction-type>
+					<IsTaskerAction>false</IsTaskerAction>
+					<IsTaskerAction-type>java.lang.Boolean</IsTaskerAction-type>
+					<NearbyText>&lt;null&gt;</NearbyText>
+					<NearbyText-type>java.lang.String</NearbyText-type>
+					<Password>&lt;null&gt;</Password>
+					<Password-type>java.lang.String</Password-type>
+					<RepeatInterval>&lt;null&gt;</RepeatInterval>
+					<RepeatInterval-type>java.lang.String</RepeatInterval-type>
+					<RepeatTimes>&lt;null&gt;</RepeatTimes>
+					<RepeatTimes-type>java.lang.String</RepeatTimes-type>
+					<StoredAction>&lt;null&gt;</StoredAction>
+					<StoredAction-type>java.lang.String</StoredAction-type>
+					<TextToWrite>&lt;null&gt;</TextToWrite>
+					<TextToWrite-type>java.lang.String</TextToWrite-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Type: Id
+Value: com.linepaycorp.talaria:id/number1View
+Action : Click</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>ActionId FieldSelectionType ActionType plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>78215419-90fc-4684-8337-6e94d2976ccb</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentPerformAction</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigPerformAction</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>1732635924</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionId>com.linepaycorp.talaria:id/number2View</ActionId>
+					<ActionId-type>java.lang.String</ActionId-type>
+					<ActionType>16</ActionType>
+					<ActionType-type>java.lang.String</ActionType-type>
+					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
+					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
+					<FieldSelectionType>1</FieldSelectionType>
+					<FieldSelectionType-type>java.lang.String</FieldSelectionType-type>
+					<IsFirstAction>false</IsFirstAction>
+					<IsFirstAction-type>java.lang.Boolean</IsFirstAction-type>
+					<IsTaskerAction>false</IsTaskerAction>
+					<IsTaskerAction-type>java.lang.Boolean</IsTaskerAction-type>
+					<NearbyText>&lt;null&gt;</NearbyText>
+					<NearbyText-type>java.lang.String</NearbyText-type>
+					<Password>&lt;null&gt;</Password>
+					<Password-type>java.lang.String</Password-type>
+					<RepeatInterval>&lt;null&gt;</RepeatInterval>
+					<RepeatInterval-type>java.lang.String</RepeatInterval-type>
+					<RepeatTimes>&lt;null&gt;</RepeatTimes>
+					<RepeatTimes-type>java.lang.String</RepeatTimes-type>
+					<StoredAction>&lt;null&gt;</StoredAction>
+					<StoredAction-type>java.lang.String</StoredAction-type>
+					<TextToWrite>&lt;null&gt;</TextToWrite>
+					<TextToWrite-type>java.lang.String</TextToWrite-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Type: Id
+Value: com.linepaycorp.talaria:id/number2View
+Action : Click</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>ActionId FieldSelectionType ActionType plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>eb584dda-b05a-4b0f-a1c8-38ef8244e4dc</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentPerformAction</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigPerformAction</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>1732635924</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionId>com.linepaycorp.talaria:id/number3View</ActionId>
+					<ActionId-type>java.lang.String</ActionId-type>
+					<ActionType>16</ActionType>
+					<ActionType-type>java.lang.String</ActionType-type>
+					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
+					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
+					<FieldSelectionType>1</FieldSelectionType>
+					<FieldSelectionType-type>java.lang.String</FieldSelectionType-type>
+					<IsFirstAction>false</IsFirstAction>
+					<IsFirstAction-type>java.lang.Boolean</IsFirstAction-type>
+					<IsTaskerAction>false</IsTaskerAction>
+					<IsTaskerAction-type>java.lang.Boolean</IsTaskerAction-type>
+					<NearbyText>&lt;null&gt;</NearbyText>
+					<NearbyText-type>java.lang.String</NearbyText-type>
+					<Password>&lt;null&gt;</Password>
+					<Password-type>java.lang.String</Password-type>
+					<RepeatInterval>&lt;null&gt;</RepeatInterval>
+					<RepeatInterval-type>java.lang.String</RepeatInterval-type>
+					<RepeatTimes>&lt;null&gt;</RepeatTimes>
+					<RepeatTimes-type>java.lang.String</RepeatTimes-type>
+					<StoredAction>&lt;null&gt;</StoredAction>
+					<StoredAction-type>java.lang.String</StoredAction-type>
+					<TextToWrite>&lt;null&gt;</TextToWrite>
+					<TextToWrite-type>java.lang.String</TextToWrite-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Type: Id
+Value: com.linepaycorp.talaria:id/number3View
+Action : Click</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>ActionId FieldSelectionType ActionType plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>e2a2ac44-a002-4cf8-901e-a02a0e0f1dff</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentPerformAction</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigPerformAction</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>1732635924</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionId>com.linepaycorp.talaria:id/number4View</ActionId>
+					<ActionId-type>java.lang.String</ActionId-type>
+					<ActionType>16</ActionType>
+					<ActionType-type>java.lang.String</ActionType-type>
+					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
+					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
+					<FieldSelectionType>1</FieldSelectionType>
+					<FieldSelectionType-type>java.lang.String</FieldSelectionType-type>
+					<IsFirstAction>false</IsFirstAction>
+					<IsFirstAction-type>java.lang.Boolean</IsFirstAction-type>
+					<IsTaskerAction>false</IsTaskerAction>
+					<IsTaskerAction-type>java.lang.Boolean</IsTaskerAction-type>
+					<NearbyText>&lt;null&gt;</NearbyText>
+					<NearbyText-type>java.lang.String</NearbyText-type>
+					<Password>&lt;null&gt;</Password>
+					<Password-type>java.lang.String</Password-type>
+					<RepeatInterval>&lt;null&gt;</RepeatInterval>
+					<RepeatInterval-type>java.lang.String</RepeatInterval-type>
+					<RepeatTimes>&lt;null&gt;</RepeatTimes>
+					<RepeatTimes-type>java.lang.String</RepeatTimes-type>
+					<StoredAction>&lt;null&gt;</StoredAction>
+					<StoredAction-type>java.lang.String</StoredAction-type>
+					<TextToWrite>&lt;null&gt;</TextToWrite>
+					<TextToWrite-type>java.lang.String</TextToWrite-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Type: Id
+Value: com.linepaycorp.talaria:id/number4View
+Action : Click</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>ActionId FieldSelectionType ActionType plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>eb584dda-b05a-4b0f-a1c8-38ef8244e4dc</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentPerformAction</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigPerformAction</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>1732635924</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionId>com.linepaycorp.talaria:id/number5View</ActionId>
+					<ActionId-type>java.lang.String</ActionId-type>
+					<ActionType>16</ActionType>
+					<ActionType-type>java.lang.String</ActionType-type>
+					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
+					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
+					<FieldSelectionType>1</FieldSelectionType>
+					<FieldSelectionType-type>java.lang.String</FieldSelectionType-type>
+					<IsFirstAction>false</IsFirstAction>
+					<IsFirstAction-type>java.lang.Boolean</IsFirstAction-type>
+					<IsTaskerAction>false</IsTaskerAction>
+					<IsTaskerAction-type>java.lang.Boolean</IsTaskerAction-type>
+					<NearbyText>&lt;null&gt;</NearbyText>
+					<NearbyText-type>java.lang.String</NearbyText-type>
+					<Password>&lt;null&gt;</Password>
+					<Password-type>java.lang.String</Password-type>
+					<RepeatInterval>&lt;null&gt;</RepeatInterval>
+					<RepeatInterval-type>java.lang.String</RepeatInterval-type>
+					<RepeatTimes>&lt;null&gt;</RepeatTimes>
+					<RepeatTimes-type>java.lang.String</RepeatTimes-type>
+					<StoredAction>&lt;null&gt;</StoredAction>
+					<StoredAction-type>java.lang.String</StoredAction-type>
+					<TextToWrite>&lt;null&gt;</TextToWrite>
+					<TextToWrite-type>java.lang.String</TextToWrite-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Type: Id
+Value: com.linepaycorp.talaria:id/number5View
+Action : Click</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>ActionId FieldSelectionType ActionType plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>0695b086-c69c-40f0-9d75-63051178ce9f</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentPerformAction</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigPerformAction</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>1732635924</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionId>com.linepaycorp.talaria:id/number6View</ActionId>
+					<ActionId-type>java.lang.String</ActionId-type>
+					<ActionType>16</ActionType>
+					<ActionType-type>java.lang.String</ActionType-type>
+					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
+					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
+					<FieldSelectionType>1</FieldSelectionType>
+					<FieldSelectionType-type>java.lang.String</FieldSelectionType-type>
+					<IsFirstAction>false</IsFirstAction>
+					<IsFirstAction-type>java.lang.Boolean</IsFirstAction-type>
+					<IsTaskerAction>false</IsTaskerAction>
+					<IsTaskerAction-type>java.lang.Boolean</IsTaskerAction-type>
+					<NearbyText>&lt;null&gt;</NearbyText>
+					<NearbyText-type>java.lang.String</NearbyText-type>
+					<Password>&lt;null&gt;</Password>
+					<Password-type>java.lang.String</Password-type>
+					<RepeatInterval>&lt;null&gt;</RepeatInterval>
+					<RepeatInterval-type>java.lang.String</RepeatInterval-type>
+					<RepeatTimes>&lt;null&gt;</RepeatTimes>
+					<RepeatTimes-type>java.lang.String</RepeatTimes-type>
+					<StoredAction>&lt;null&gt;</StoredAction>
+					<StoredAction-type>java.lang.String</StoredAction-type>
+					<TextToWrite>&lt;null&gt;</TextToWrite>
+					<TextToWrite-type>java.lang.String</TextToWrite-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Type: Id
+Value: com.linepaycorp.talaria:id/number6View
+Action : Click</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>ActionId FieldSelectionType ActionType plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>eb584dda-b05a-4b0f-a1c8-38ef8244e4dc</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentPerformAction</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigPerformAction</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
